@@ -1,152 +1,54 @@
-<!DOCTYPE html>
-/* html element */
-<html>
-/* head element */
-<head>
-/* css link */
-  <link rel="stylesheet" href="https://github.com/LoganElkin/cset/blob/master/110/resume/index.html">
-  /* style element */
-<style>
-/* div tag */
+/* Border, Background, and text alignment for .Div */
 .Div {
   border: 1px outset black;
-  background-color: lightgrey;    
+  background-color: azure;    
   text-align: center;
 }
-/* create colors and alignments for elements */
+/* Color for inside of the boxes */
 li   {color: black;}
 p    {color: black;}
 a   {color: black;}
-h1 {text-align: center;}
-h2 {text-align: center;}
-h3 {text-align: center;}
-h4 {text-align: center;}
+/* alignment for p and div */
 p {text-align: center;}
 div {text-align: center;}
-/* closing statement for style */
-</style>
-/* closing for head */
-</head>
-/* body beginning statement */
-<body>
-
-/* name of top heading */
-<h1>Resume</h1>
-
-/* div for the name topic
-<div class="Div">
-/* name and subject */
-  <h2>Logan Andrew Elkin</h2>
-  <p><strong>Resume for CSET-110.</strong></p>
-</div>
-<body>
-
-/* meta tag */
-<meta charset="utf-8">
-
-/* title */
-<title>Resume</title>
-
-/* Resume Content Heading */
-<h2>List of Resume Content</h2>
-
-<style>
+/* The details and parameters for div */
 div {
   background-color: lightgrey;
   width: 700px;
   border: 1px solid black;
-  padding: 1px;
-  margin: 1px;
+  padding: 20px;
+  margin: 10px;
+  font-size: 15px;
+  letter-spacing: 2px;
 }
-</style>
-
-<div><ol>
-  
-  <li>Name</li>
-  <li>Objective</li>
-  <li>Skills and Abilities</li>
-  <li>Experience</li>
-  <li>Eductaion</li>
-</ol> 
-</div>
-
-/* open section */
-<section>
-  <style>
-div {
-  background-color: lightgrey;
-  width: 700px;
-  border: 1px solid black;
-  padding: 30px;
-  margin: 1px;
+/* The set parameters for my image */
+img {
+  height: 400px;
+  width: 200px;
+  border: 3px solid black;
+  padding: 2px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
-</style>
-/* Objective */
-<h3>Objective</h2>
-
-
-<div>My objective as a computer software engineer is to use my skills to help make code to run programs for companies and help out as many people as I can with their programming projects.</div>
-/* close section */
-</section>
-
-/* open section */
-<section>
-  <style>
-div {
-  background-color: lightgrey;
-  width: 700px;
-  border: 1px solid black;
-  padding: 30px;
-  margin: 1px;
+/* Div display and margins */
+Div {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
-</style>
-/* Skills and Abilities heading */
-<h3>Skills and Abilities</h2>
-
-
-<div>My skills consist of basic HTML and JavaScript. I am able to make code run different programs. I am currently using purely HTML without using css to ensure that I can work with both types of code seperately, while also being able to state the reasons why they are different from one another.</div>
-/* close section */
-</section>
-
-/* open section */
-<section>
-  <style>
-div {
-  background-color: lightgrey;
-  width: 700px;
-  border: 1px solid black;
-  padding: 30px;
-  margin: 1px;
+/* h1 features */
+h1 {
+  font-size: 30px;
+  text-align: center;
 }
-</style>
-/* Experience heading */
-<h3>Experience</h2>
-
-<div>My previous experience with programming and computers consist of standard computer courses I had taken in high school. Currently, I am working on improving my knowledge within code by learning in college courses for computer software engineering.</div>
-/* close section */
-</section>
-
-/* open section */
-<section>
-
-<style>
-div {
-  background-color: lightgrey;
-  width: 700px;
-  border: 1px solid black;
-  padding: 30px;
-  margin: 1px;
+/* h2 features */
+h2 {
+  font-size: 25px;
+  text-align: center;
 }
-</style>
-/* Education heading */
-<h3>Education</h2>
-
-<div>From 2020 - 2022,	I am an Undergraduate at Thaddeus Stevens College in Lancaster, PA.</div>
-/* close section */
-</section>
-
-
-/* closing body */
-</body>
-/* closing html */
-</html>
+/* h3 features */
+h3 {
+  font-size: 20px;
+  text-align: center;
+}
